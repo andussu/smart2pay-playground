@@ -15,6 +15,10 @@ module.exports = defineConfig({
     trashAssetsBeforeRuns: true,
     videoUploadOnPasses: false,
     specPattern: 'cypress/tests/e2e/**/*.{js,jsx,ts,tsx}',
+    "reporterOptions": {
+      "mochaFile": "cypress/results-api/results-[hash].xml",
+      "toConsole": true
+    },
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },

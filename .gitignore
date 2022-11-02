@@ -7,3 +7,5 @@ node_modules
 # Test results, videos and screenshots
 snapshots/actual
 downloads
+videos
+results-api
