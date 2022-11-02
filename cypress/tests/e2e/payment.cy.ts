@@ -1,7 +1,7 @@
 
 describe('Creating a successful payment', () => {
   it('bla', () => {
-    cy.visitPlayground();
+    cy.visitPlayground().should('have.attr','title','???');
 
   })
 
