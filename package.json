@@ -14,7 +14,7 @@
   "scripts": {
     "compile": "tsc --build --verbose",
     "cy:open:e2e": "npx cypress open",
-    "cy:run:e2e": "npx cypress run"
+    "cy:run:e2e": "npx cypress run --browser chrome"
   },
   "repository": {
     "type": "git",
