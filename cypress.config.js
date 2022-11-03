@@ -8,12 +8,13 @@ module.exports = defineConfig({
     runMode: 2
   },
   e2e: {
-    baseUrl: 'https://docs.smart2pay.com/category/getting-started/playground',
+    baseUrl: 'https://docs.smart2pay.com',
     chromeWebSecurity: false,
     reporter: "junit",
     screenshotsFolder: "snapshots/actual",
     trashAssetsBeforeRuns: true,
     videoUploadOnPasses: false,
+    hideXHRInCommandLog: true,
     specPattern: 'cypress/tests/e2e/**/*.{js,jsx,ts,tsx}',
     "reporterOptions": {
       "mochaFile": "cypress/results-api/results-[hash].xml",

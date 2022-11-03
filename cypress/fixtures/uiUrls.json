@@ -1,3 +1,4 @@
 {
-  "BASE_URL" : "https://docs.smart2pay.com/"
+  "BASE_URL" : "https://docs.smart2pay.com/",
+  "TRP_URL" : "https://docs.smart2pay.com/wp-content/plugins/smart2pay-api/views/funcs/demo_clean_return.php"
 }

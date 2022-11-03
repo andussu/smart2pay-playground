@@ -5,4 +5,7 @@ declare namespace Cypress {
         visitPlayground(): Chainable<any>;
         getByDataCy(selector:string): Chainable<any>;
     }
+    interface ResolvedConfigOptions {
+        hideXHRInCommandLog?: boolean;
+    }
 }
